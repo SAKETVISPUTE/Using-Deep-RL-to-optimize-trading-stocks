@@ -1,0 +1,9 @@
+dqn:
+  batch_size: 256
+  buffer_size: 5000
+  exploration_final_eps: 0.0845085607857232
+  exploration_fraction: 0.35335205430165495
+  gamma: 0.9648250347817532
+  learning_rate: 0.00033106450025322773
+  learning_starts: 1000
+  target_update_interval: 100

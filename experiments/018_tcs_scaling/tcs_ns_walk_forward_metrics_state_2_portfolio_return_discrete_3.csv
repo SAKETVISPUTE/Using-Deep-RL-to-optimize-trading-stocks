@@ -1,0 +1,2 @@
+Final Value,Cumulative Return (%),Annualized Return (%),Annualized Volatility (%),Sharpe Ratio,Sortino Ratio,Max Drawdown (%),Calmar Ratio,Number of Trades,Stock,Feature_Group,Reward_Type,Action_Space_Type,History_Len
+144570.7905184801,44.57079051848009,9.868104334694184,20.375261806598672,0.2697985392748785,0.024694966666433983,-25.30445290380403,0.3899750123904361,4,tcs_ns,state_2,portfolio_return,discrete_3,1

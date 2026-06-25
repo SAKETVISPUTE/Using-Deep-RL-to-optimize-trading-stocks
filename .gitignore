@@ -1,0 +1,24 @@
+# Datasets
+data/raw/
+data/processed/
+
+# Models and Logs
+models/
+logs/
+*.zip
+
+# Database files
+*.db
+*.sqlite
+
+# Security/Keys
+vlmdg_key
+.env
+
+# Python/VS Code
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.pytest_cache/
+.ipynb_checkpoints/

@@ -1,0 +1,2 @@
+Final Value,Cumulative Return (%),Annualized Return (%),Annualized Volatility (%),Sharpe Ratio,Sortino Ratio,Max Drawdown (%),Calmar Ratio,Number of Trades,Stock,Feature_Group,Reward_Type,Action_Space_Type,History_Len,Algorithm
+108396.8105684272,8.3968105684272,2.0799347943901925,21.48588470124863,-0.07600377250873108,-0.0068573939205933115,-25.945931471966983,0.08016419825348868,68,reliance_ns,state_2,portfolio_return,discrete_3,1,dqn

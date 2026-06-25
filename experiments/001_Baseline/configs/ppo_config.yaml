@@ -1,0 +1,17 @@
+# Hyperparameter configuration for Proximal Policy Optimization (PPO) agent
+ppo:
+  learning_rate: 0.0003          # Standard learning rate
+  n_steps: 2048                 # Number of steps to run for each environment before updating
+  batch_size: 64                 # Minibatch size for gradient descent
+  n_epochs: 10                   # Number of epochs when optimizing the surrogate loss
+  gamma: 0.99                    # Discount factor
+  gae_lambda: 0.95              # Factor for trade-off of bias vs variance for GAE
+  clip_range: 0.2                # Clipping parameter for PPO
+  ent_coef: 0.01                 # Entropy coefficient for exploration encouragement
+  vf_coef: 0.5                   # Value function coefficient
+  max_grad_norm: 0.5             # Max gradient norm clipping
+  policy_kwargs:
+    net_arch:
+      pi: [128, 128]             # Custom policy network architecture
+      vf: [128, 128]             # Custom value network architecture
+  total_timesteps: 100000        # Total training steps
